@@ -1,0 +1,73 @@
+
+.main_box{
+    width: 250px;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 0px 5px 5px 0px;
+    border: 3px solid #000;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+}
+
+.main_box h2 {
+    --bg-size: 400%;
+    --color-one: #5819A1;
+    --color-two: #D119FF;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-size: clamp(1rem, 15vmin, 4rem);
+    background: linear-gradient(
+        90deg,
+        var(--color-one),
+        var(--color-two),
+        var(--color-one)
+      )
+      0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .boujee-text {
+      animation: move-bg 8s linear infinite;
+    }
+    @keyframes move-bg {
+      to {
+        background-position: var(--bg-size) 0;
+      }
+    }
+  }
+   
+.main_box #separator{
+ width: 70%;
+ height: 2px;
+ background-color: rgb(255, 255, 255);
+
+}
+.searched_gif{
+    width: 80%;
+    display: flex;
+    flex-flow: wrap column;
+    margin: 10px;
+}
+.searched_gif button{
+    width: 95%;
+    height: 40px;
+background-color: transparent;
+margin-top: 20px;
+margin-left: 8px;
+border: 0px solid #622cc0;
+border-radius: 10px;
+color: #FFF;
+font-size: 20px;
+font-family: 'Pontano Sans', sans-serif;
+transition: box-shadow 0.3s ease-in-out;
+}
+
+
+
+.searched_gif button:hover {
+    box-shadow: 0 6px 4px rgba(135, 78, 235, 0.5); /* Apply a light shadow on hover */
+
+
+}

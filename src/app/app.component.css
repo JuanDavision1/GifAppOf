@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Expanded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300&family=Stint+Ultra+Expanded&display=swap');
+
+*{
+    background-color: rgba(0,0,0,0.9);
+
+}
+#home_dig{
+    overflow-x: hidden;
+}

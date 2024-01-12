@@ -1,0 +1,19 @@
+#box_generation {
+    border-radius: 10px;
+/* From https://css.glass */
+background: transparent;
+}
+#box_generation:hover{
+    transition: all 350ms;
+    transform: scale(0.9);
+}
+
+#box_generation div p{
+    font-size: 18px;
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: 600;
+}
+.card-text{
+   text-transform: capitalize;
+   font-style: italic;
+}
